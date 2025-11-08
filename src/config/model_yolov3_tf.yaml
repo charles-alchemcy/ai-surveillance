@@ -4,9 +4,9 @@ model_format: yolov3_tf
 path_model: ../models/yolov3_tf/yolov3.weights  
 path_labels:  # openimages_v4 (80 classes)
 require_labels: False 
-#conf_thres: 0.5 
-#nms_thres: 0.5 
+conf_thres: 0.5 
+nms_thres: 0.5 
 dtype: tf.float32 
 signatures: 
 output_keys: 
-score_thres: 0.4 
+score_thres: 0.2

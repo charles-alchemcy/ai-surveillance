@@ -74,10 +74,11 @@ def read_video_np(path_video, frame_dim = None, frame_max = None):
     stop_video(vid)
     return img_vid, fps
 
+
 def display_image(image, fig_name):
-  #fig = plt.figure(figsize=(20, 15))
-  #plt.grid(False)
-  #plt.imshow(image)  
+  fig = plt.figure(figsize=(20, 15))
+  plt.grid(False)
+  plt.imshow(image)  
   cv.imshow(fig_name,image)
   k = cv.waitKey(20)
 
