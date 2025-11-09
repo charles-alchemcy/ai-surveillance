@@ -15,7 +15,7 @@ def read_token_yaml(path_yaml='../../mailtrap/mailtrap.yaml'):
         try:
             mt_config = yaml.safe_load(stream)                   
         except yaml.YAMLError as exc:
-            print(exc)
+            print("Error happen" , exc)
     return mt_config
 
 def send_mail_with_image(mt_config, 
