@@ -20,7 +20,6 @@ acquisition:
   mode_ref_mean: True # Reference frame; False = no reference frame
   num_frames_mean: 100 # Number of frames to calculate the reference frame  
 
-
 # Object detection:
 detection: 
   score_thres: 0.2 # Score threshold: small value suffices as we are searching specific classes
