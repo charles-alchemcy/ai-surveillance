@@ -4,7 +4,7 @@ acquisition:
   cam_id: 0 # Camera id (if mode_video = Camera); otherwise, video path (if mode_video = Video)
   num_frames: None # Number of frames to acquire; None = infinite
   fps: 30 # Frames per second
-  
+
   #resolution: (640, 480) # Resolution of the frames
   #crop: None # Crop the frames; None = no crop
   #crop_size: (100, 100) # Crop size
@@ -19,6 +19,7 @@ acquisition:
   black_and_white: False # Convert the frames to black and white
   mode_ref_mean: True # Reference frame; False = no reference frame
   num_frames_mean: 100 # Number of frames to calculate the reference frame  
+
 
 # Object detection:
 detection: 
