@@ -5,6 +5,7 @@ Current actions are the following:
 - Save frames when specified classes (eg. "person", "dog") are detected with high score
 - (optional) Send email with the detected frame, every period of time, using mailtrap and a private domain
 
+
 It uses opencv-python to capture images and for display. 
 
 Currently, the following object detectors can be used: 
