@@ -81,4 +81,3 @@ def display_image(image, fig_name):
   plt.imshow(image)  
   cv.imshow(fig_name,image)
   k = cv.waitKey(20)
-
